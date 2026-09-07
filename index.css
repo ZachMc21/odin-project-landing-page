@@ -1,0 +1,76 @@
+:root {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  --dark-bg: #1F2937;
+  --blue-bg: #3882F6;
+  --text-light-primary: #F9FAF8;
+  --text-light-secondary: #E5E7EB;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav, div.body-content, footer {
+  margin: 0 auto;
+  padding: 0 15%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-bg);
+}
+
+nav h1 {
+  font-size: 1.3rem;
+  color: var(--text-light-primary);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  list-style: none;
+  color: var(--text-light-secondary);
+}
+
+div#hero-title {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--dark-bg);
+}
+
+div#hero-title h1 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: var(--text-light-primary);
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+}
+
+div#hero-title p {
+  font-size: 1rem;
+  color: var(--text-light-secondary);
+}
+
+div#hero-title button {
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--text-light-primary);
+  background-color: var(--blue-bg);
+  width: 7rem;
+  height: 1.75rem;
+  font-weight: 700;
+}
+
+div#hero-title img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
