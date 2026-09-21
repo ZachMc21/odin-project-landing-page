@@ -116,3 +116,19 @@ p.hero-card-text {
   text-align: center;
   color: #6b727b;
 }
+
+div#testimony {
+  padding: 5rem 20%;
+  background-color: #E5E7EB;
+}
+
+div#testimony p {
+  color: #1F2937;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+div#testimony p.quote-author {
+  text-align: right;
+}
