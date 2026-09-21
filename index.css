@@ -132,3 +132,33 @@ div#testimony p {
 div#testimony p.quote-author {
   text-align: right;
 }
+
+div#cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 10%;
+  padding: 4rem 6rem;
+  border-radius: 1rem;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+div#cta-text * {
+  margin: 0;
+}
+
+div#cta-text h1 {
+  font-size: 1.5rem;
+}
+
+button#signup {
+  border: 0.1rem solid #F9FAF8;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
